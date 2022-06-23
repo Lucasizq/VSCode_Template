@@ -13,6 +13,15 @@ const FirebaseLogo = require("../assets/logos/FirebaseLogo.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
 const DockerLogo = require("../assets/logos/DockerLogo.png");
+const HTMLLogo = require("../assets/logos/HTML.png");
+const CSSLogo = require("../assets/logos/CSS.png");
+const AWSLogo = require("../assets/logos/AWS.png");
+const CLogo = require("../assets/logos/C.png");
+const CPPLogo = require("../assets/logos/cpp.png");
+const JavaLogo = require("../assets/logos/java.png");
+
+
+
 
 const About = () => {
   return (
@@ -30,17 +39,14 @@ const About = () => {
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros
-            non nisi vulputate eleifend. Vestibulum erat ipsum, lacinia ut nibh
-            ut, pulvinar interdum lorem. Aliquam et nisi eu risus ultrices
-            suscipit nec nec quam. Suspendisse pretium fermentum luctus.
-            Maecenas vitae vestibulum ipsum, ut varius diam. Phasellus mattis
-            nunc vel purus maximus, sit amet congue ligula tincidunt. Nulla
-            tristique luctus lacinia. Nullam ut tortor arcu.
+            Experienced Software/Computer Engineer with a demonstrated history
+            of working in the computer software industry. Skilled in Java,
+            Javascript, C, C++, Python, CSS, HTML, NodeJS, MongoDB, and Matlab.
+            Currently studying Computer Engineering at Virginia Tech.
           </code>
           <br />
           <br />
-          <code>Aenean in mi non leo placerat suscipit a eget odio:</code>
+          <code>These are the following languages I've been working with:</code>
           <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
             <div className="flex flex-row  mb-3">
               <img
@@ -52,11 +58,11 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={NextLogo}
+                src={CSSLogo}
                 alt="Next Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Next.js</code>
+              <code>CSS</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
@@ -68,27 +74,27 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={TypescriptLogo}
+                src={HTMLLogo}
                 alt="Typescript Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>TypeScript</code>
+              <code>HTML 5</code>
             </div>
             <div className="flex flex-row  mb-3">
               <img
-                src={TailwindLogo}
+                src={AWSLogo}
                 alt="Tailwind Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Tailwind CSS</code>
+              <code>AWS</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={ReduxLogo}
+                src={CLogo}
                 alt="Redux Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Redux</code>
+              <code>C</code>
             </div>
             <div className="flex flex-row  mb-3">
               <img
@@ -100,19 +106,19 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={FirebaseLogo}
+                src={NodeJSLogo}
                 alt="Firebase Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Firebase</code>
+              <code>Nodejs</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={NodeJSLogo}
+                src={CPPLogo}
                 alt="NodeJS Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Nodejs</code>
+              <code>C++</code>
             </div>
             <div className="flex flex-row mb-3">
               <img
@@ -132,11 +138,11 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={DockerLogo}
+                src={JavaLogo}
                 alt="MongoDB Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Docker</code>
+              <code>Java</code>
             </div>
           </div>
         </div>
